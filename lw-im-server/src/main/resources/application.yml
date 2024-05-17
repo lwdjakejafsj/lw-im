@@ -1,0 +1,35 @@
+server:
+  port: 8877
+  id: 1
+
+spring:
+  redis:
+    database: 0
+    host: 117.72.34.133
+    port: 6379
+    password:
+    timeout: 30000
+    lettuce:
+      pool:
+        enabled: true
+        max-active: 8
+        max-idle: 8
+        min-idle: 0
+        max-wait: 5000
+    address: redis://117.72.34.133:6379
+
+rocketmq:
+  name-server: 117.72.34.133:9876
+  producer:
+    group: im-server-group
+
+ws:
+  enable: true
+  port: 8878
+
+tcp:
+  enable: false # 暂时不开启
+  port: 8879
+
+heartbeat:
+  count: 10

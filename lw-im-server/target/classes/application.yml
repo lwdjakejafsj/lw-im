@@ -1,0 +1,13 @@
+server:
+  port: 8877
+
+ws:
+  enable: true
+  port: 8878
+
+tcp:
+  enable: false # 暂时不开启
+  port: 8879
+
+heartbeat:
+  count: 10
