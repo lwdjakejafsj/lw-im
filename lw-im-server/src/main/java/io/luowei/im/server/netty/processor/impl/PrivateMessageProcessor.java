@@ -26,6 +26,7 @@ public class PrivateMessageProcessor extends BaseMessageProcessor implements Mes
 
     @Override
     public void process(IMReceiveInfo receiveInfo) {
+
         IMUserInfo sender = receiveInfo.getSender();
         IMUserInfo receiver = receiveInfo.getReceivers().get(0);
         logger.info("PrivateMessageProcessor.process|接收到消息,发送者:{}, 接收者:{}, 内容:{}", sender.getUserId(), receiver.getUserId(), receiveInfo.getData());

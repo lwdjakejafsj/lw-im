@@ -7,6 +7,8 @@
       <module fileurl="file://$PROJECT_DIR$/lw-im-common/lw-im-common-cache/lw-im-common-cache.iml" filepath="$PROJECT_DIR$/lw-im-common/lw-im-common-cache/lw-im-common-cache.iml" />
       <module fileurl="file://$PROJECT_DIR$/lw-im-common/lw-im-common-domain/lw-im-common-domain.iml" filepath="$PROJECT_DIR$/lw-im-common/lw-im-common-domain/lw-im-common-domain.iml" />
       <module fileurl="file://$PROJECT_DIR$/lw-im-common/lw-im-common-mq/lw-im-common-mq.iml" filepath="$PROJECT_DIR$/lw-im-common/lw-im-common-mq/lw-im-common-mq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lw-im-platform/lw-im-platform.iml" filepath="$PROJECT_DIR$/lw-im-platform/lw-im-platform.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lw-im-sdk/lw-im-sdk.iml" filepath="$PROJECT_DIR$/lw-im-sdk/lw-im-sdk.iml" />
       <module fileurl="file://$PROJECT_DIR$/lw-im-server/lw-im-server.iml" filepath="$PROJECT_DIR$/lw-im-server/lw-im-server.iml" />
     </modules>
   </component>

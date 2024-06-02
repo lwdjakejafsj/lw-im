@@ -23,11 +23,11 @@ public class UserChannelContextCache {
                 .computeIfAbsent(userId, key -> new ConcurrentHashMap<>());
 
         ChannelHandlerContext context = map.get(terminal);
+
+        map.put(terminal,ctx);
         if (context != null) {
             context.channel().close();
         }
-
-        map.put(terminal,ctx);
 
     }
 

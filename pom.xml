@@ -11,6 +11,8 @@
     <modules>
         <module>lw-im-server</module>
         <module>lw-im-common</module>
+        <module>lw-im-sdk</module>
+        <module>lw-im-platform</module>
     </modules>
     <packaging>pom</packaging>
 

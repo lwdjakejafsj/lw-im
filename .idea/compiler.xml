@@ -7,8 +7,10 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="lw-im-common-mq" />
+        <module name="lw-im-platform" />
         <module name="lw-im-common-domain" />
         <module name="lw-im-common-cache" />
+        <module name="lw-im-sdk" />
         <module name="lw-im-server" />
       </profile>
     </annotationProcessing>
@@ -18,6 +20,8 @@
       <module name="lw-im-common-cache" target="1.8" />
       <module name="lw-im-common-domain" target="1.8" />
       <module name="lw-im-common-mq" target="1.8" />
+      <module name="lw-im-platform" target="1.8" />
+      <module name="lw-im-sdk" target="1.8" />
       <module name="lw-im-server" target="1.8" />
     </bytecodeTargetLevel>
   </component>
